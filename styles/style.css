@@ -19,7 +19,7 @@ header {
 
 .header-container {
     /* height: 600px; */
-    max-width: 1300px;
+    max-width: 1240px;
     margin: 0 auto;
     padding: 0 30px;
 }
@@ -65,9 +65,9 @@ header {
 
 }
 
-.hamburger{
+.hamburger {
     display: none;
-    
+
 }
 
 .nav-options {
@@ -93,7 +93,7 @@ header {
 .banner {
     /* border: 1px solid green; */
     display: flex;
-    justify-content: space-between;
+    gap: 250px;
     /* width: 100%; */
     margin-top: 80px;
 
@@ -162,11 +162,11 @@ header {
     font-size: 35px;
 }
 
-.fa-play{
+.fa-play {
     font-size: 24px;
 }
 
-.play-icon{
+.play-icon {
     position: absolute;
     left: -80px;
     top: 250px;
@@ -193,7 +193,7 @@ header {
 }
 
 
-.banner-info-card-2{
+.banner-info-card-2 {
     width: 180px;
     height: 96px;
     font-size: 18px;
@@ -210,9 +210,9 @@ header {
     left: 166px;
 }
 
-.banner-info-card-2 p,.banner-info-card-1 p{
+.banner-info-card-2 p,
+.banner-info-card-1 p {
     color: var(--Text-2, rgba(239, 237, 232, 0.65));
-font-size: 16px;
-
-letter-spacing: 0.5px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
 }
