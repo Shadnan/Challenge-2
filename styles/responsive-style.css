@@ -1,0 +1,34 @@
+@media screen and (max-width:992px){
+    .banner{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:576px){
+    .nav-options{
+        border: none;
+    }
+    .nav-options ul{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+        
+    }
+
+    .play-icon{
+        display: none;
+    }
+
+    .banner-info-card-1{
+        top: 250px;
+        left: -60px;
+    }
+
+    .banner-info-card-2{
+        top: 60px;
+        left: 186px;
+    }
+
+}
