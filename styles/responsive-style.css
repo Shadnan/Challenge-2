@@ -10,10 +10,20 @@
     }
     .banner-img img{
         width: 100%;
-    };
+    }
+
+    /* habit section  */
+    .habit-section-goals{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* run section */
+    
+        
+
 }
 
-@media screen and (max-width:576px){
+@media screen and (max-width:611px){
     .nav-options{
         border: none;
     }
@@ -25,20 +35,63 @@
         
     }
 
+    .banner{
+        margin-top: 0px;
+    }
+
+    .banner-content{
+        margin-top: 28px;
+    }
+
+    .banner-title{
+        font-size: 60px;
+    }
+
     .play-icon{
         display: none;
     }
 
+    .banner-btn button{
+        padding: 10px 10px;
+        width: 100%;
+        font-size: 16px;
+    }
+
     .banner-info-card-1{
-        width: 120px;
+        width: 135px;
+        height: 80px;
         top: 330px;
         left: 30px;
     }
 
     .banner-info-card-2{
-        width: 120px;
+        width: 135px;
+        height: 80px;
         top: 180px;
         left: 137px;
     }
 
+    /* habit section  */
+    .habit-section-goals{
+        grid-template-columns: 1fr;
+        gap: 30px;
+        /* width: 50%; */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* run-section */
+    .run{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+    .run-section-text, .run-img{
+        width: 100%;
+    }
+
+    .join-btn {
+        padding: 7px 70px;
+    }
 }

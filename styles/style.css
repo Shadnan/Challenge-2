@@ -9,11 +9,15 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
+.nav-options ul>li:nth-child(1):hover,
+button:hover{
+    opacity: 0.65;
+}
 
 /* header */
 header {
     /* background: black; */
-    background: linear-gradient(180deg, #020202 0%, rgba(0, 0, 0, 0.8) 100%);
+    background: linear-gradient(360deg, #020202 0%, rgba(0, 0, 0, 0.766) 100%);
     color: white;
 }
 
@@ -89,13 +93,19 @@ header {
 
 }
 
+.banner-btn button {
+    padding: 10px 28px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
 /* banner-section */
 .banner {
     /* border: 1px solid green; */
     display: flex;
     gap: 250px;
     /* width: 100%; */
-    margin-top: 80px;
+    margin-top: 10px;
 
 
 }
@@ -215,4 +225,137 @@ header {
     color: var(--Text-2, rgba(239, 237, 232, 0.65));
     font-size: 16px;
     letter-spacing: 0.5px;
+}
+
+
+/* main section */
+
+.main {
+    background: #000;
+    /* height: 1000px; */
+}
+
+/* section default styles */
+
+.section-container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.section-text {
+    padding-top: 80px;
+    text-align: center;
+
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.section-description {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-top: 18px;
+}
+
+/* Change your habit section's goal */
+
+.habit-section-goals {
+    margin-top: 34px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 60px;
+    text-align: center;
+
+}
+
+.goal img {
+    border-radius: 50%;
+    border: 3px solid rgba(132, 121, 121, 0.476);
+}
+
+.goal-title {
+    color: #fff;
+    /* text-align: center; */
+    margin-top: 18px;
+}
+
+.goal-description {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-top: 4px;
+}
+
+/* change habit section done here */
+
+
+/* Run an extra mile easily - section */
+
+.run {
+    /* height: 350px; */
+    background-color: rgba(67, 65, 65, 0.322);
+    margin-top: 80px;
+    border-radius: 15px;
+    color: white;
+    padding: 30px 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.run-section-text {
+    /* width: 35%; */
+    /* padding: 50px; */
+    margin-top: 24px;
+    width: 50%;
+}
+
+.run-title {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.run-description {
+    font-size: 16px;
+    /* width: 50%; */
+    color: rgba(255, 255, 255, 0.357);
+    margin-top: 24px;
+}
+
+.join-btn {
+    padding: 10px 50px;
+    border-radius: 46px;
+    border: none;
+    color: #fff;
+    background: #e65b3c;
+    font-size: 16px;
+    margin-top: 24px;
+    cursor: pointer;
+
+}
+
+.run-img {
+    width: 50%;
+    /* padding: 40px; */
+}
+
+.run-img img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 18px;
+}
+
+/* run section ends here */
+
+.bmi{
+    height: 500px;
 }
