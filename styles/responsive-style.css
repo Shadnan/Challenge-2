@@ -96,5 +96,7 @@
 
     .join-btn {
         padding: 7px 70px;
+        width: 100%;
+
     }
 }
