@@ -20,6 +20,26 @@
     /* run section */
     
         
+    /* BMI section */
+    .bmi-items{
+        flex-direction: column;
+        gap: 60px;
+        
+    }
+
+    form > input, #sex{
+        width: 45%;
+    }
+
+    #activity-factor{
+        width: 94%;
+    }
+
+    .bmi-table, .bmi-calculator{
+        margin: 0 auto;
+        border: 1px solid red;
+    }
+
 
 }
 

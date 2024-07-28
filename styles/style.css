@@ -250,9 +250,9 @@ header {
 }
 
 .section-title {
-    font-size: 32px;
-    font-weight: 800;
-    color: #ffffff;
+    font-size: 38px;
+    font-weight: 900;
+    color: #fff;
 }
 
 .section-description {
@@ -261,6 +261,7 @@ header {
     line-height: 24px;
     letter-spacing: 0.5px;
     margin-top: 18px;
+    font-weight: 400;
 }
 
 /* Change your habit section's goal */
@@ -352,10 +353,97 @@ header {
     width: 100%;
     border-radius: 10px;
     margin-top: 18px;
+    
 }
 
 /* run section ends here */
 
+
+/* bmi section starts here */
 .bmi{
-    height: 500px;
+    /* height: 1000px; */
+    margin-top: 8px;
+    color: white;
 }
+
+.bmi-text{
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    width: 50%;
+    text-align: left;
+}
+
+.bmi-section{
+    margin-top: 88px;
+    background: #FFFFFF1A;
+    /* height: 600px; */
+    
+}
+
+.bmi-items{
+    padding-top: 50px;
+    display: flex;
+    gap: 156px;
+}
+
+table{
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    margin-top: 52px;
+    border-collapse: collapse;
+
+}
+
+td{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+td,th{
+    border: 1px solid  rgba(255, 255, 255, 0.10) ;
+    padding: 8px 16px;
+}
+
+form{
+    margin-top: 34px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+form > input, #sex{
+    padding: 12px 40px 12px 20px;
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.10);
+border: none;
+margin-top: 10px;
+margin-right: 10px;
+width: 250px;
+color: rgba(255, 255, 255, 0.5);
+}
+
+
+#activity-factor{
+    padding: 12px 40px 12px 20px;
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.10);
+border: none;
+margin-top: 10px;
+width: 514px;
+color: rgba(255, 255, 255, 0.5);
+}
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.calculate-btn{
+    padding: 10px 50px;
+    border-radius: 46px;
+    border: none;
+    color: #fff;
+    background: #e65b3c;
+    font-size: 16px;
+    margin-top: 24px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+
+
