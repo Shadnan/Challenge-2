@@ -21,6 +21,10 @@
     
         
     /* BMI section */
+
+    .bmi-text{
+        width: 100%;
+    }
     .bmi-items{
         flex-direction: column;
         gap: 60px;
@@ -37,7 +41,7 @@
 
     .bmi-table, .bmi-calculator{
         margin: 0 auto;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
 
 
