@@ -9,8 +9,9 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
+
 .nav-options ul>li:nth-child(1):hover,
-button:hover{
+button:hover {
     opacity: 0.65;
 }
 
@@ -353,87 +354,90 @@ header {
     width: 100%;
     border-radius: 10px;
     margin-top: 18px;
-    
+
 }
 
 /* run section ends here */
 
 
 /* bmi section starts here */
-.bmi{
+.bmi {
     /* height: 1000px; */
     margin-top: 8px;
     color: white;
 }
 
-.bmi-text{
+.bmi-text {
     margin: 0 auto;
     /* border: 1px solid red; */
     width: 50%;
     text-align: left;
 }
 
-.bmi-section{
+.bmi-section {
     margin-top: 88px;
     background: #FFFFFF1A;
     /* height: 600px; */
-    
+
 }
 
-.bmi-items{
+.bmi-items {
     padding-top: 50px;
     display: flex;
     gap: 156px;
+    /* justify-content: center; */
 }
 
-table{
+table {
     border: 1px solid rgba(255, 255, 255, 0.10);
     margin-top: 52px;
     border-collapse: collapse;
 
 }
 
-td{
+td {
     color: rgba(255, 255, 255, 0.5);
 }
 
-td,th{
-    border: 1px solid  rgba(255, 255, 255, 0.10) ;
+td,
+th {
+    border: 1px solid rgba(255, 255, 255, 0.10);
     padding: 8px 16px;
 }
 
-form{
+form {
     margin-top: 34px;
     color: rgba(255, 255, 255, 0.5);
 }
 
-form > input, #sex{
+form>input,
+#sex {
     padding: 12px 40px 12px 20px;
     border-radius: 8px;
-background: rgba(255, 255, 255, 0.10);
-border: none;
-margin-top: 10px;
-margin-right: 10px;
-width: 250px;
-color: rgba(255, 255, 255, 0.5);
-}
-
-
-#activity-factor{
-    padding: 12px 40px 12px 20px;
-    border-radius: 8px;
-background: rgba(255, 255, 255, 0.10);
-border: none;
-margin-top: 10px;
-width: 514px;
-color: rgba(255, 255, 255, 0.5);
-}
-
-::placeholder{
+    background: rgba(255, 255, 255, 0.10);
+    border: none;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 250px;
     color: rgba(255, 255, 255, 0.5);
 }
 
-.calculate-btn{
+
+#activity-factor {
+    padding: 12px 40px 12px 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.10);
+    border: none;
+    margin-top: 10px;
+    width: 514px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.calculate-btn {
     padding: 10px 50px;
     border-radius: 46px;
     border: none;
@@ -445,5 +449,62 @@ color: rgba(255, 255, 255, 0.5);
     margin-bottom: 20px;
 }
 
+/* meet our team section starts here */
+
+.team-section {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.team-members {
+    width: 100%;
+    margin: 0 auto;
+
+}
 
 
+
+.team-members {
+    margin-top: 58px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.10);
+    /* height: 1000px; */
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+
+    /* border: 1px solid green; */
+}
+
+
+.member {
+    position: relative;
+    width: 300px;
+    padding: 10px;
+    /* border: 1px solid red; */
+    display: flex;
+}
+
+.member img {
+    width: 100%;
+    border-radius: 18px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.trainer-description {
+    margin-top: 0px;
+    font-weight: 600;
+    color: #ffffffc6;
+}
+
+
+.member-info {
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    text-align: left;
+    z-index: 1;
+
+}
