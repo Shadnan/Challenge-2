@@ -506,5 +506,70 @@ form>input,
     left: 20px;
     text-align: left;
     z-index: 1;
+}
 
+/* plan section */
+
+.membership-section{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.plan-section{
+    
+    margin-top: 52px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 18px;
+    width: 80%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+
+}
+
+.plan{
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 300px;
+    border: 1px solid rgba(255, 255, 255, 0.50) ;
+    border-radius: 18px;
+    box-shadow: 0px 4px 8px rgba(44, 41, 41, 0.516);
+    margin: 0 auto;
+}
+
+.plan h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.price{
+    font-size: 24px;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.80);
+}
+
+.plan ul{
+    margin-top: 18px;
+}
+
+.plan ul>li{
+color: rgba(255, 255, 255, 0.50);
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+list-style:circle;
+margin-left: 15px;
+}
+
+.plan-btn button{
+    width: 100%;
+}
+
+.plan-section .plan-btn button{
+    margin-top: 20px;
 }

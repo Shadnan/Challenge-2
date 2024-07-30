@@ -72,6 +72,22 @@
         font-size: 16px;
     }
 
+    /* plan-section */
+    .plan-section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .plan{
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .membership-section .section-text{
+        width: 80%;
+        margin: 0 auto;
+    }
+
 }
 
 @media screen and (max-width:611px) {
@@ -200,5 +216,21 @@
         top: 135px;
     }
 
+    /* plan section */
+
+    .membership-section .section-text{
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .plan-section{
+        grid-template-columns: 1fr;
+        width: 300px;
+    }
+
+    .plan{
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
 
 }
