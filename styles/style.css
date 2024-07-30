@@ -377,15 +377,15 @@ header {
 .bmi-section {
     margin-top: 88px;
     background: #FFFFFF1A;
-    /* height: 600px; */
 
 }
 
 .bmi-items {
+    
     padding-top: 50px;
     display: flex;
-    gap: 156px;
-    /* justify-content: center; */
+    /* gap: 156px; */
+    justify-content: space-around;
 }
 
 table {
@@ -452,7 +452,7 @@ form>input,
 /* meet our team section starts here */
 
 .team-section {
-    max-width: 1240px;
+    max-width: 975px;
     margin: 0 auto;
 }
 
@@ -568,8 +568,4 @@ margin-left: 15px;
 
 .plan-btn button{
     width: 100%;
-}
-
-.plan-section .plan-btn button{
-    margin-top: 20px;
 }
