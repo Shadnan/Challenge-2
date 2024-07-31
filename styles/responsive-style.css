@@ -73,6 +73,11 @@
     }
 
     /* plan-section */
+    .membership-section .section-text {
+        width: 100%;
+    }
+
+
     .plan-section{
         display: flex;
         flex-wrap: wrap;
