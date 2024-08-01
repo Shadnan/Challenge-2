@@ -381,7 +381,7 @@ header {
 }
 
 .bmi-items {
-    
+
     padding-top: 50px;
     display: flex;
     /* gap: 156px; */
@@ -510,9 +510,10 @@ form>input,
 
 /* plan section */
 
-.membership-section{
+.membership-section {
     max-width: 1240px;
     margin: 0 auto;
+    padding-bottom: 88px;
 }
 
 .membership-section .section-text {
@@ -520,61 +521,125 @@ form>input,
     margin: 0 auto;
 }
 
-.plan-section{
-    
+.plan-section {
+
     margin-top: 52px;
-    
+
     border-radius: 18px;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-   /* display: flex;
+    /* display: flex;
    gap: 0px;
    justify-content: center;
    align-items: center; */
 
 }
 
-.plan{
+.plan {
     padding: 30px;
     background-color: rgba(255, 255, 255, 0.1);
     width: 300px;
-    border: 1px solid rgba(255, 255, 255, 0.50) ;
+    border: 1px solid rgba(255, 255, 255, 0.50);
     border-radius: 18px;
     box-shadow: 0px 4px 8px rgba(44, 41, 41, 0.516);
     margin: 0 auto;
 }
 
-.plan h2{
+.plan h2 {
     font-size: 20px;
     font-weight: 600;
     color: #fff;
 }
 
-.price{
+.price {
     font-size: 24px;
     font-weight: 800;
     color: rgba(255, 255, 255, 0.80);
 }
 
-.plan ul{
+.plan ul {
     margin-top: 18px;
 }
 
-.plan ul>li{
-color: rgba(255, 255, 255, 0.50);
-font-size: 14px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.3px;
-list-style:circle;
-margin-left: 15px;
+.plan ul>li {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    list-style: circle;
+    margin-left: 15px;
 }
 
-.plan-btn button{
+.plan-btn button {
     width: 100%;
 }
 
+/* footer section */
+
+.footer-container {
+    background-color: black;
+}
+
+.footer-container-2 {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-items {
+    padding-top: 66px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.footer-logo {
+    width: 33.33%;
+}
+
+
+
+.footer-logo h1 {
+    color: #E6533C;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.footer-info h3 {
+    color: #FFF;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.footer-info ul {
+    padding-top: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 18px;
+}
+
+.line {
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.10);
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.copyright {
+    margin-top: 30px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 18px;
+    letter-spacing: 0.3px;
+    padding-bottom: 40px;
+    line-height: 30px;
+}
